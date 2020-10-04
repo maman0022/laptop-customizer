@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainForm Component the form renders with a header and reference to FormItems component 1`] = `
+<form
+  className="main__form"
+>
+  <h2>
+    Customize your laptop
+  </h2>
+  <FormItem />
+</form>
+`;

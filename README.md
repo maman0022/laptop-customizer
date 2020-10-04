@@ -1,4 +1,3 @@
 # Laptop Customizer
-_Starter project for React course_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a refactored laptop customizer app. It has been refactored to be more modular.

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component the header with a h1 element 1`] = `
+<header>
+  <h1>
+    ELF Computing | Laptops
+  </h1>
+</header>
+`;
