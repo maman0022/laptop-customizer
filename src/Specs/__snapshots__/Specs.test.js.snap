@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Specs Component an array of form items renders with passed in dummy data 1`] = `
+Array [
+  <fieldset
+    className="feature"
+    key="Processor-0"
+  >
+    <legend
+      className="feature__name"
+    >
+      <h3>
+        Processor
+      </h3>
+    </legend>
+    <Parts
+      USCurrencyFormat={NumberFormat {}}
+      feature="Processor"
+      state={
+        Object {
+          "selected": Object {
+            "Display": Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            "Operating System": Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            "Processor": Object {
+              "cost": 700,
+              "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+            },
+            "Video Card": Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+          },
+        }
+      }
+      store={
+        Object {
+          "FEATURES": Object {
+            "Display": Array [
+              Object {
+                "cost": 1500,
+                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+              },
+            ],
+            "Operating System": Array [
+              Object {
+                "cost": 200,
+                "name": "Ubuntu Linux 16.04",
+              },
+            ],
+            "Processor": Array [
+              Object {
+                "cost": 700,
+                "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+              },
+            ],
+            "Video Card": Array [
+              Object {
+                "cost": 1150.98,
+                "name": "Toyota Corolla 1.5v",
+              },
+            ],
+          },
+        }
+      }
+      updateFeature={null}
+    />
+  </fieldset>,
+  <fieldset
+    className="feature"
+    key="Operating System-1"
+  >
+    <legend
+      className="feature__name"
+    >
+      <h3>
+        Operating System
+      </h3>
+    </legend>
+    <Parts
+      USCurrencyFormat={NumberFormat {}}
+      feature="Operating System"
+      state={
+        Object {
+          "selected": Object {
+            "Display": Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            "Operating System": Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            "Processor": Object {
+              "cost": 700,
+              "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+            },
+            "Video Card": Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+          },
+        }
+      }
+      store={
+        Object {
+          "FEATURES": Object {
+            "Display": Array [
+              Object {
+                "cost": 1500,
+                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+              },
+            ],
+            "Operating System": Array [
+              Object {
+                "cost": 200,
+                "name": "Ubuntu Linux 16.04",
+              },
+            ],
+            "Processor": Array [
+              Object {
+                "cost": 700,
+                "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+              },
+            ],
+            "Video Card": Array [
+              Object {
+                "cost": 1150.98,
+                "name": "Toyota Corolla 1.5v",
+              },
+            ],
+          },
+        }
+      }
+      updateFeature={null}
+    />
+  </fieldset>,
+  <fieldset
+    className="feature"
+    key="Video Card-2"
+  >
+    <legend
+      className="feature__name"
+    >
+      <h3>
+        Video Card
+      </h3>
+    </legend>
+    <Parts
+      USCurrencyFormat={NumberFormat {}}
+      feature="Video Card"
+      state={
+        Object {
+          "selected": Object {
+            "Display": Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            "Operating System": Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            "Processor": Object {
+              "cost": 700,
+              "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+            },
+            "Video Card": Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+          },
+        }
+      }
+      store={
+        Object {
+          "FEATURES": Object {
+            "Display": Array [
+              Object {
+                "cost": 1500,
+                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+              },
+            ],
+            "Operating System": Array [
+              Object {
+                "cost": 200,
+                "name": "Ubuntu Linux 16.04",
+              },
+            ],
+            "Processor": Array [
+              Object {
+                "cost": 700,
+                "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+              },
+            ],
+            "Video Card": Array [
+              Object {
+                "cost": 1150.98,
+                "name": "Toyota Corolla 1.5v",
+              },
+            ],
+          },
+        }
+      }
+      updateFeature={null}
+    />
+  </fieldset>,
+  <fieldset
+    className="feature"
+    key="Display-3"
+  >
+    <legend
+      className="feature__name"
+    >
+      <h3>
+        Display
+      </h3>
+    </legend>
+    <Parts
+      USCurrencyFormat={NumberFormat {}}
+      feature="Display"
+      state={
+        Object {
+          "selected": Object {
+            "Display": Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            "Operating System": Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            "Processor": Object {
+              "cost": 700,
+              "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+            },
+            "Video Card": Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+          },
+        }
+      }
+      store={
+        Object {
+          "FEATURES": Object {
+            "Display": Array [
+              Object {
+                "cost": 1500,
+                "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+              },
+            ],
+            "Operating System": Array [
+              Object {
+                "cost": 200,
+                "name": "Ubuntu Linux 16.04",
+              },
+            ],
+            "Processor": Array [
+              Object {
+                "cost": 700,
+                "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+              },
+            ],
+            "Video Card": Array [
+              Object {
+                "cost": 1150.98,
+                "name": "Toyota Corolla 1.5v",
+              },
+            ],
+          },
+        }
+      }
+      updateFeature={null}
+    />
+  </fieldset>,
+]
+`;

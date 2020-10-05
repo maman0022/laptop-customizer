@@ -7,7 +7,7 @@ import { USCurrencyFormat } from '../App/App';
 let total = 1523.66;
 
 describe('MainSummary Component', () => {
-  it('the summary renders with a dummy total(1523.66) and reference to SummmaryItem component', () => {
+  it('the summary renders with reference to Total and Option components component', () => {
     const wrapper = shallow(<MainSummary USCurrencyFormat = { USCurrencyFormat } total={total}/>);
     expect(toJson(wrapper)).toMatchSnapshot();
   })

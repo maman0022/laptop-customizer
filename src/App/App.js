@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import store from '../STORE';
-import Header from '../Header/Header';
+import Nav from '../Nav/Nav';
 import MainForm from '../MainForm/MainForm';
 import MainSummary from '../MainSummary/MainSummary';
 import './App.css';
@@ -50,7 +50,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header />
+        <Nav />
         <main>
           <MainForm USCurrencyFormat={USCurrencyFormat} state={this.state} updateFeature={this.updateFeature} store={store}/>
           <MainSummary USCurrencyFormat={USCurrencyFormat} total={total} state={this.state} />

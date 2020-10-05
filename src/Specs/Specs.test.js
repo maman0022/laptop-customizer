@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import FormItem from './FormItem';
+import Specs from './Specs';
 import { USCurrencyFormat } from '../App/App';
 
 let state = {
@@ -56,9 +56,9 @@ let store = {
   }
 }
 
-describe('FormItem Component', () => {
+describe('Specs Component', () => {
   it('an array of form items renders with passed in dummy data', () => {
-    const wrapper = shallow(<FormItem USCurrencyFormat={USCurrencyFormat} state={state} updateFeature={updateFeature} store={store} />);
+    const wrapper = shallow(<Specs USCurrencyFormat={USCurrencyFormat} state={state} updateFeature={updateFeature} store={store} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   })
 })

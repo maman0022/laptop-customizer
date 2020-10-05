@@ -1,7 +1,7 @@
 import React from 'react';
-import './Header.css'
+import './Nav.css'
 
-export default function Header() {
+export default function Nav() {
   return (
     <header>
       <h1>ELF Computing | Laptops</h1>

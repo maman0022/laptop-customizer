@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import SummaryItem from './SummaryItem';
+import Option from './Option';
 import { USCurrencyFormat } from '../App/App';
 
 let state = {
@@ -27,7 +27,7 @@ let state = {
 
 describe('SummaryItem Component', () => {
   it('an array of summary items renders with passed in dummy data', () => {
-    const wrapper = shallow(<SummaryItem USCurrencyFormat = { USCurrencyFormat } state = { state }/>);
+    const wrapper = shallow(<Option USCurrencyFormat = { USCurrencyFormat } state = { state }/>);
     expect(toJson(wrapper)).toMatchSnapshot();
   })
 })

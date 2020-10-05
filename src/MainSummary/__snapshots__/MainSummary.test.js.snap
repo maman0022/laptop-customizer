@@ -1,28 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MainSummary Component the summary renders with a dummy total(1523.66) and reference to SummmaryItem component 1`] = `
+exports[`MainSummary Component the summary renders with reference to Total and Option components component 1`] = `
 <section
   className="main__summary"
 >
   <h2>
     Your cart
   </h2>
-  <SummaryItem
+  <Option
     USCurrencyFormat={NumberFormat {}}
   />
-  <div
-    className="summary__total"
-  >
-    <div
-      className="summary__total__label"
-    >
-      Total
-    </div>
-    <div
-      className="summary__total__value"
-    >
-      $1,523.66
-    </div>
-  </div>
+  <Total
+    USCurrencyFormat={NumberFormat {}}
+    total={1523.66}
+  />
 </section>
 `;

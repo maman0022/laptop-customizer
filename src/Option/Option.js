@@ -1,7 +1,7 @@
 import React from 'react';
-import './SummaryItem.css'
+import './Option.css'
 
-export default function SummaryItem(props) {
+export default function Option(props) {
   return Object.keys(props.state.selected).map((feature, idx) => {
     const featureHash = feature + '-' + idx;
     const selectedOption = props.state.selected[feature];

@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import Header from './Header'
+import Nav from './Nav'
 
-describe('Header Component',()=>{
-  it('the header with a h1 element',()=>{
-    const wrapper=shallow(<Header/>);
+describe('Nav Component',()=>{
+  it('the Nav with a h1 element',()=>{
+    const wrapper=shallow(<Nav/>);
     expect(toJson(wrapper)).toMatchSnapshot();
   })
 })
